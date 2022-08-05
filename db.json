@@ -1,0 +1,46 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name": "macbook pro 20201",
+            "price": 1299,
+            "brand": "mac",
+            "img": "./pictures/macbook-pro.jpeg"
+        },
+        {
+            "id":2,
+            "name": "macbook air 20201",
+            "price": 999,
+            "brand": "mac",
+            "img": "./pictures/macbook-air.jpeg"
+        },
+        {
+            "id":3,
+            "name": "vivobook pro",
+            "price": 967,
+            "brand": "asus",
+            "img": "./pictures/vivobook-pro.jpeg"
+        },
+        {
+            "id":4,
+            "name": "zenbook pro",
+            "price": 1139,
+            "brand": "asus",
+            "img": "./pictures/zenbook-pro.jpeg"
+        },
+        {
+            "id":5,
+            "name": "thinkpad p1",
+            "price": 1967,
+            "brand": "lenovo",
+            "img": "./pictures/thinkpad-p1.jpeg"
+        },
+        {
+            "id":6,
+            "name": "legion 5",
+            "price": 1379,
+            "brand": "lenovo",
+            "img": "./pictures/legion-5.jpeg"
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+.container{
+    width: 260px;
+    height: 360px;
+    background: rgb(46, 46, 46);
+    border-radius: 8px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .name{
+    height: 5%;
+    overflow: hidden;
+}
+.container .imgContainer{
+    width: 100%;
+    height: 65%;
+    background: green;
+    display: flex;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .imgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+.container .buyContainer{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .buyContainer .btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .buyContainer .btnContainer button{
+    margin: 2px;
+    outline: none;
+    padding: .6rem;
+    cursor: pointer;
+}
+.container .buyContainer .btnContainer .minusBtn,
+.container .buyContainer .btnContainer .plusBtn{
+    padding: .6rem .7rem;
+    display: none;
+}
+.container .buyContainer .btnContainer .minusBtn.active,
+.container .buyContainer .btnContainer .plusBtn.active{
+    display: inline-block;
+}
+@media (max-width: 750px){
+    .container{
+        width: 200px;
+        height: 280px;
+    }
+    .container .name{
+        font-size: .6rem;
+    }
+    .container .buyContainer .btnContainer button{
+        padding: .4rem;
+        font-size: .7rem;
+    }
+    .container .buyContainer .btnContainer .minusBtn,
+    .container .buyContainer .btnContainer .plusBtn{
+        padding: .4rem .5rem;
+
+    }
+}
+@media (max-width: 400px){
+    .container{
+        width: 120px;
+        height: 168px;
+        margin: 0;
+    }
+    .container .name{
+        font-size: .5rem;
+    }
+    .container .buyContainer .btnContainer button{
+        padding: .2rem;
+        font-size: .3rem;
+    }
+    .container .buyContainer .btnContainer .minusBtn,
+    .container .buyContainer .btnContainer .plusBtn{
+        padding: .2rem .3rem;
+
+    }
+    .container .buyContainer .price{
+        font-size: .5rem;
+    }
+}

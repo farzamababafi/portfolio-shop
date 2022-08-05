@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    width: 100%;
+    padding: 0 10rem;
+    height: 87vh;
+}
+.container .filterContainer{
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+.container .filterContainer ul h3{
+    opacity: .8;
+    cursor: pointer;
+    transition: 200ms;
+}
+.container .filterContainer ul h3.active{
+    opacity: 1;
+    cursor: pointer;
+}
+.container .filterContainer ul li{
+    opacity: .8;
+    margin: 15px;
+    transition: 200ms;
+    cursor: pointer;
+}
+.container .filterContainer ul li:hover,
+.container .filterContainer ul li.active{
+    opacity: 1;
+    font-size: 1.2rem;
+}
+.container .products{
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.container ::-webkit-scrollbar{
+    display: none;
+}
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1439px){
+    .container .products{
+        grid-template-columns: auto auto ;
+    }
+}
+@media (max-width: 1000px){
+    .container{
+            padding: 0 5rem;
+    }
+}
+@media (max-width: 840px){
+    .container{
+            padding: 0 2rem;
+    }
+}
+@media (max-width: 650px){
+
+    .container .filterContainer ul h3,
+    .container .filterContainer ul li{
+            font-size: .7rem;
+    }
+    .container .filterContainer ul li:hover,
+.container .filterContainer ul li.active{
+    font-size: .8rem;
+}
+}
+@media (max-width: 590px){
+
+    .container .products{
+        grid-template-columns: auto;
+        justify-content: center;
+        width: 60%;
+    }
+    .container .filterContainer{
+        width: 40%;
+    }
+}
+@media (max-width: 400px){
+
+    .container .products{
+        width: 50%;
+        margin: 0;
+        gap: 10px;
+        padding-bottom: 270px;
+    }
+    .container .filterContainer{
+        width: 50%;
+    }
+    .container .filterContainer ul h3,
+    .container .filterContainer ul li{
+            font-size: .5rem;
+    }
+}

@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.container h1{
+    opacity: .8;
+}
+.container .arrowContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.container .arrowContainer svg{
+    opacity: .8;
+}
+.container .arrowContainer svg:hover{
+    opacity: 1;
+}
+
+@media (max-width: 530px){
+    .container h1{
+        font-size: 1.2rem;
+    }
+    .container .arrowContainer svg{
+        font-size: 1.6rem;
+    }
+}

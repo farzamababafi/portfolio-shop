@@ -1,0 +1,78 @@
+.container{
+    padding:1rem 20rem;
+    width: 100%;
+}
+.container .line{
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(to right, #fc5c7d, #6a82fb);
+    margin: 15px 0;
+}
+.container .title{
+    margin: 15px 0;
+}
+.container .techContainer{
+    display: flex;
+    margin-top: 10px;
+}
+.container .techContainer div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.container .techContainer div h2{
+    margin-left: 25px;
+}
+.container .techContainer div ul {
+    width: 100%;
+    min-height: 150px;
+}
+.container .techContainer div ul li{
+    list-style: none;
+    margin-top: 10px;
+    opacity: .8;
+    font-size: 1.2rem;
+}
+@media (max-width: 910px){
+    .container{
+        padding:1rem 15rem;
+    
+    }
+}
+@media (max-width: 770px){
+    .container{
+        padding:1rem 7.5rem;
+    
+    }
+}
+@media (max-width: 530px){
+    .container{
+        padding:1rem 5rem;
+    
+    }
+    .container h1{
+        font-size: 1.2rem;
+    }
+    .container .content{
+        width: 80%;
+    }
+    .container .techContainer{
+        flex-direction: column;
+    }
+    .container .techContainer div{
+        width: 100%;
+    }
+    .container .techContainer div h2{
+        font-size: 1rem;
+    }
+    .container .techContainer div ul{
+        min-height: 100px;
+    }
+  
+    .container .techContainer div ul li{
+        margin-top: 5px;
+        font-size: .9rem;
+    }
+
+}

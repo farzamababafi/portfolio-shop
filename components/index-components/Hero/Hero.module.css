@@ -1,0 +1,67 @@
+.container{
+    padding:2rem 20rem;
+    width: 100%;
+
+}
+.container .content {
+    width: 50%;
+    opacity: .5;
+}
+.container .content p{
+    line-height: 1.6;
+}
+.container button{
+    padding: 15px 40px;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #fc5c7d, #6a82fb);
+    border: none;
+    cursor: pointer;
+}
+@media (max-width: 910px){
+    .container{
+        padding:1rem 15rem;
+    
+    }
+}
+@media (max-width: 770px){
+    .container{
+        padding:1rem 7.5rem;
+    
+    }
+}
+@media (max-width: 530px){
+    .container{
+        padding:1rem 5rem;
+    
+    }
+    .container div h1{
+        font-size: 1.2rem;
+    }
+    .container .content{
+        width: 80%;
+    }
+    .container .content p{
+        font-size: .8rem;
+    }
+    .container div button{
+        padding: 7.5px 20px;
+        letter-spacing: 1px;
+    }
+}
+@media (max-width: 330px){
+    .container div h1{
+        font-size: 1rem;
+    }
+    .container .content{
+        width: 100%;
+    }
+    .container .content p{
+        font-size: .6rem;
+    }
+    .container div button{
+        padding: 5px 15px;
+        letter-spacing: 0;
+        font-size: .8rem;
+    }
+}

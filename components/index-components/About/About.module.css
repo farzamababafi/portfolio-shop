@@ -1,0 +1,109 @@
+.aboutContainer{
+    padding:1rem 10rem;
+    width: 100%;
+}
+.aboutContainer .textContainer{
+    padding: 0 10rem;
+}
+.aboutContainer .textContainer p{
+    width: 90%;
+    opacity: 0.8;
+    line-height: 1.6;
+    margin-left: 10px;
+}
+.aboutContainer  .scroller{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 30%;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+}
+.aboutContainer .scroller div{
+    scroll-snap-align: start;
+}
+.aboutContainer   ::-webkit-scrollbar{
+    display: none;
+}
+
+.aboutContainer  .scroller div{
+    width: 100%;
+    height: 100%;
+}
+.aboutContainer  .scroller img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+.aboutContainer .btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutContainer .btnContainer button{
+    border-radius: 50px;
+    font-size: 1.5rem;
+    border: none;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    cursor: pointer;
+}
+@media (max-width: 910px){
+    .aboutContainer .textContainer{
+        padding: 0 5rem;
+    }
+    .aboutContainer .btnContainer{
+        display: none;
+    }
+}
+@media (max-width: 770px){
+    .aboutContainer .textContainer{
+        padding: 0 0rem;
+    }
+}
+@media (max-width: 580px){
+    .aboutContainer {
+        padding: 1rem 5rem;
+    }
+    .aboutContainer .textContainer h1{
+        font-size: 1.2rem;
+    }
+    .aboutContainer .textContainer p{
+        font-size: .9rem;
+    }
+    .aboutContainer  .scroller{
+        grid-auto-columns: 50%;
+        gap: 15px;
+    }
+}
+@media (max-width: 530px){
+    .aboutContainer .textContainer p{
+        width: 100%;
+    }
+    .aboutContainer  .scroller{
+  
+        gap: 5px;
+    }
+    .aboutContainer  .scroller img{
+        width: 90%;
+        height: 90%;
+    }
+}
+@media (max-width: 420px){
+    .aboutContainer .textContainer p{
+        width: 100%;
+    }
+    .aboutContainer  .scroller{
+        grid-auto-columns: 70%;
+        gap: 0px;
+    }
+    .aboutContainer  .scroller img{
+        width: 100%;
+        height: 100%;
+    }
+}
