@@ -1,26 +1,27 @@
 # Description
 
-I developed a website inspired by the design and funcdonality of Namava, a popular.
-streaming plagorm, using React. Cloned the frontend components of the Namava website to create a user-friendly interface for streaming movies and TV shows, focusing on replicadng the original plagorm's intuidve navigadon and engaging visual elements. Implemented custom styling and animadons, excluding the Swiper library
+I Developed a comprehensive porgolio website using Next.js and Redux, incorporadng a wide range of personal projects and showcasing technical skills and experdse.
 
 ## Technologies Used
 
-React, Swiper, HTML/CSS, JavaScript
+Next.js, Redux
 
 
 ## Home Page
 
-<img width="1498" alt="HomePage" src="https://github.com/user-attachments/assets/aaf11508-8162-4c8a-ae03-5936c34907f6" />
+<img width="1500" alt="Screenshot 2025-02-27 at 2 04 04 PM" src="https://github.com/user-attachments/assets/6892b2d2-59dc-4f37-811c-e5e3a130375a" />
 <br><br>
-<img width="1498" alt="Footer" src="https://github.com/user-attachments/assets/04f7c2a3-ca1f-430e-a37c-8f510095fa8b" />
+<img width="1500" alt="Screenshot 2025-02-27 at 2 04 14 PM" src="https://github.com/user-attachments/assets/c32a04e9-b9a3-4a69-99fb-7a7124394806" />
 
 
-## Sign In/Out Page
+## Products Page
 
-<img width="1498" alt="SignInPage" src="https://github.com/user-attachments/assets/9b69f7be-1e97-4ec8-9212-d13b590c0444" />
+<img width="1500" alt="Screenshot 2025-02-27 at 2 04 43 PM" src="https://github.com/user-attachments/assets/95b280f7-75ae-4cd4-bce8-25ce4cc1c952" />
 
-## Payment Page
+## Card Page
 
-<img width="1498" alt="PaymentPage" src="https://github.com/user-attachments/assets/daa4e20c-750c-48ca-8b82-768492aa2261" />
+<img width="1500" alt="Screenshot 2025-02-27 at 2 04 53 PM" src="https://github.com/user-attachments/assets/af28d52d-4fe0-457f-9281-5c1aed421726" />
+
+
 
 
